@@ -206,6 +206,7 @@ class MPGM():
 
 if __name__ == "__main__":
 
+    # Unit test
     my_dtype = torch.float64
     torch.set_default_dtype(my_dtype)
     
@@ -222,3 +223,4 @@ if __name__ == "__main__":
     x = mpgm.call(A,A_hat,E,E_hat,F,F_hat)
     print(x)
     # Should return identity matrix
+    

@@ -6,7 +6,10 @@
 <a href="https://github.com/INDElab/rgvae/pulse" alt="Activity">
         <img src="https://img.shields.io/github/commit-activity/m/INDElab/rgvae?style=plastic" /></a>
 
-Implementation of a RGVAE for relational graphs, e.g knowledge graphs.
+Implementation of a relational graph variational Auto-Encoder (RGVAE) for relational graphs, e.g knowledge graphs.
+This repo holds the implementation and the experiments from my thesis project:
+[Knowledge Generation - Variational Bayes on Knowledge Graphs](https://arxiv.org/abs/2101.08857)
+
 
 ## Dependencies
 [![Python](https://img.shields.io/badge/Python-v3.8-blue?style=plastic)](https://www.python.org/)

@@ -133,6 +133,7 @@ if __name__ == "__main__":
         wandb.save(lp_file_path)
         print('Saved link prediction results!')
 
+    # Graph generation and semantical evaluation
     if 'eval_generation' in args:
         if args['eval_generation']:
             gen_list, new_triples = list(), list()
